@@ -12,8 +12,8 @@ from bs4 import BeautifulSoup
 url = 'http://www.zhihu.com'
 login_url = url+'/login/email'
 login_data = {
-    'email': 'liyuan2759@126.com', 
-    'password': 'ksak620697',
+    'email': 'email', 
+    'password': 'pw',
     'rememberme': 'true',
 }
 headers_base = {
